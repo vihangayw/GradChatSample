@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_msg"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_happening"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Happening" />
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@android:drawable/stat_notify_sync_noanim"
+            android:title="jobs" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="Donate" />
+    </group>
+
+
+</menu>
